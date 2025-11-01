@@ -1,0 +1,24 @@
+# Exemplo de arquivo de configuração
+# Este arquivo pode ser usado para armazenar configurações padrão
+
+# APIs
+virustotal_api_key=
+securitytrails_api_key=
+shodan_api_key=
+
+# Configurações padrão
+default_workers=20
+default_timeout=5
+default_rate_limit=50
+default_output_dir=./results
+
+# Wordlists
+custom_wordlist_path=./wordlists/basic.txt
+
+# Filtros
+min_subdomain_length=3
+max_subdomain_length=63
+
+# Output
+include_timestamp=true
+default_format=both
